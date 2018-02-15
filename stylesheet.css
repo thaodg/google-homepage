@@ -1,0 +1,66 @@
+.container {
+	height: 539px;
+	width: 1440px;
+	position:relative;
+}
+
+.header {
+	height: 50px;
+	width: 1440px;
+
+}
+
+.mail, .images, .app, .notification{
+	height:20px; 
+	width:20px;
+	top: 20px;
+	position: absolute;
+}
+
+.mail{
+	right: 300px;
+	font-size: 12px;
+}
+.images{
+	right: 250px;
+	font-size: 12px;
+}
+.app{
+
+	right: 180px;
+}
+.notification{
+	right: 130px;
+	top:20px;
+}
+
+.space {
+	top:50px;
+	
+}
+
+.logo {
+	left: 500px;
+	top:100px;
+	left: 500px;
+	position:absolute;
+
+}
+
+.seacharea {
+	top:370px;
+	position: absolute;
+}
+
+input[type=text]{
+	left: 440px;
+	width:600px;
+	height:30px;
+
+
+}
+
+input[type=submit]{
+	left: 440px;
+
+}
